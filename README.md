@@ -10,7 +10,7 @@
 
 ## Загрузка
 
-Последний релиз [здесь](/че).
+Последний релиз [здесь](https://github.com/danixoon/ats-manual/releases/tag/release).
 
 ## Установка
 ### База данных
