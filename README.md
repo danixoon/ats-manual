@@ -59,8 +59,7 @@ USE [ИМЯ_БАЗЫ_ДАННЫХ]
 
 Разархивировать архив с приложением в рабочую папку. В файле `config.ini` (если отсутствует -- создать) прописать содержимое:
 
-```ini
-DATABASE_CONNECTION_STRING=Data Source=IP-АДРЕС,ПОРТ;Network Library=DBMSSOCN;Initial Catalog=ИМЯ_БАЗЫ_ДАННЫХ;Integrated Security=False;User ID=ИМЯ_ПОЛЬЗОВАТЕЛЯ_БД;Password=ПАРОЛЬ_ПОЛЬЗОВАТЕЛЯ_БД;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
-```
+
+`DATABASE_CONNECTION_STRING=Data Source=IP-АДРЕС,ПОРТ;Network Library=DBMSSOCN;Initial Catalog=ИМЯ_БАЗЫ_ДАННЫХ;Integrated Security=False;User ID=ИМЯ_ПОЛЬЗОВАТЕЛЯ_БД;Password=ПАРОЛЬ_ПОЛЬЗОВАТЕЛЯ_БД;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False`
 
 Запустить файл `ATSManual.exe`. При корректной конфигурации приложение подключится к базе данных без ошибок и будет штатно работать.
